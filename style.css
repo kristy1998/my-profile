@@ -1,0 +1,75 @@
+/* Colors and fonts */
+
+h3 {
+	color: rgb(220,20,60);
+	font-stretch: 20px;
+	font-family: 'ZCOOL XiaoWei', serif;
+	font-weight: bold;
+	text-decoration: underline;
+    text-decoration-style: double;
+}
+
+h1 {
+	color: rgb(220,20,60);
+	font-size: 32px;
+	font-weight: bold;
+	font-family: 'ZCOOL XiaoWei', serif;
+	text-justify: centre;
+	 
+}
+
+body {
+	font-family: 'Assistant', sans-serif;
+	background-color: rgb(245,245,245);
+	font-size: 16px;
+	line-height: 1.8;
+	letter-spacing: 0.8px; 
+}
+
+a{ 
+    text-decoration: none;
+    text-justify: centre;
+    font-family: 'ZCOOL XiaoWei', serif;
+    color:	rgb(178,34,34);
+    transition: color 0.3s ease;
+    text-align: center;
+}
+
+a:hover {
+  color: purple ;
+  text-decoration: underline;
+}
+
+/* Custom design with class*/ 
+
+.container {
+	width: 750px;
+	margin: 50px auto;
+	text-align: center; 
+}
+
+#logo {
+	width: 150px
+}
+
+.img-circle {
+	border-radius: 45%
+}
+
+.img-bordered {
+	border: 5px solid rgb(250,235,215); 
+}
+
+@media (max-width: 750px) {
+	.container {
+		width: 600px;
+	}
+}
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+
+
